@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\tests\clipboard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\deps\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\deps\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FDEA8B61-9265-4F17-AABD-07A18EC77A38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7BC6BFEB-6472-4B52-94BC-05108EE5810B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

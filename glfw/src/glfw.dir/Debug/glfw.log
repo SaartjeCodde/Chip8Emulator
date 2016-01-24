@@ -1,0 +1,39 @@
+﻿Build started 05/01/2016 00:02:05.
+     1>Project "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/src/CMakeLists.txt
+         CMake does not need to re-run because D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _GLFW_USE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"glfw.dir\Debug\\" /Fd"glfw.dir\Debug\glfw.pdb" /Gd /TC /analyze- /errorReport:prompt "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\context.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\init.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\input.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\monitor.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\window.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\win32_init.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\win32_monitor.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\win32_time.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\win32_tls.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\win32_window.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\winmm_joystick.c" "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\wgl_context.c"
+         context.c
+         init.c
+         input.c
+         monitor.c
+         window.c
+         win32_init.c
+         win32_monitor.c
+         win32_time.c
+         win32_tls.c
+         win32_window.c
+         winmm_joystick.c
+         wgl_context.c
+         Generating Code...
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\Debug\glfw3.lib" /NOLOGO glfw.dir\Debug\context.obj
+         glfw.dir\Debug\init.obj
+         glfw.dir\Debug\input.obj
+         glfw.dir\Debug\monitor.obj
+         glfw.dir\Debug\window.obj
+         glfw.dir\Debug\win32_init.obj
+         glfw.dir\Debug\win32_monitor.obj
+         glfw.dir\Debug\win32_time.obj
+         glfw.dir\Debug\win32_tls.obj
+         glfw.dir\Debug\win32_window.obj
+         glfw.dir\Debug\winmm_joystick.obj
+         glfw.dir\Debug\wgl_context.obj
+         glfw.vcxproj -> D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\Debug\glfw3.lib
+     1>Done Building Project "D:\Digital Arts & Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.60

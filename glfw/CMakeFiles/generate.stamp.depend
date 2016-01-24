@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeFiles/3.3.2/CMakeSystem.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeFiles/3.3.2/CMakeCCompiler.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeFiles/3.3.2/CMakeRCCompiler.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindOpenGL.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CheckIncludeFiles.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CheckSymbolExists.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindDoxygen.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/WriteBasicConfigVersionFile.cmake
+D:/Program Files/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/src/glfw3Config.cmake.in
+D:/Program Files/CMake/share/cmake-3.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/docs/Doxyfile.in
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/src/glfw_config.h.in
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/src/glfw3.pc.in
+D:/Digital Arts & Entertainment/Platform Development/Repository_PlatformDev/glfw/cmake_uninstall.cmake.in

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt" />
+    <CustomBuild Include="D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\85637535023a0dcc5b30272128b0603f\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3E314288-4BF3-4A91-95C6-CC6F20CF1858}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

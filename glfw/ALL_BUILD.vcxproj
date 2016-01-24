@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BFBFDCF3-B72B-41A4-99AD-E7E6D0329A27}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Digital Arts ^&amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-HD:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw" "-BD:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw" --check-stamp-file "D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindDoxygen.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw3Config.cmake.in;D:\Program Files\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\docs\Doxyfile.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw_config.h.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw3.pc.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\cmake_uninstall.cmake.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Digital Arts ^&amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-HD:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw" "-BD:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw" --check-stamp-file "D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindDoxygen.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw3Config.cmake.in;D:\Program Files\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\docs\Doxyfile.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw_config.h.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw3.pc.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\cmake_uninstall.cmake.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Digital Arts ^&amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-HD:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw" "-BD:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw" --check-stamp-file "D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindDoxygen.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw3Config.cmake.in;D:\Program Files\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\docs\Doxyfile.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw_config.h.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw3.pc.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\cmake_uninstall.cmake.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Digital Arts ^&amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-HD:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw" "-BD:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw" --check-stamp-file "D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/CMakeLists.txt;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindDoxygen.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw3Config.cmake.in;D:\Program Files\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\docs\Doxyfile.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw_config.h.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\src\glfw3.pc.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\cmake_uninstall.cmake.in;D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Digital Arts &amp; Entertainment\Platform Development\Repository_PlatformDev\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/ZERO_CHECK.vcxproj">
+      <Project>1E8AF088-4675-490B-AED8-C7A71C5ADBD7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/examples/boing.vcxproj">
+      <Project>012CD9A0-D69A-425A-BC1E-991354F5C151</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/clipboard.vcxproj">
+      <Project>507CE8D5-6A96-4EC0-AD78-D06F8EAA0825</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/cursor.vcxproj">
+      <Project>00F2D0F3-7BD0-41CB-9A6E-D1E1D26EC602</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/empty.vcxproj">
+      <Project>06C27CDE-980A-444E-BC17-4BB34851008A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/events.vcxproj">
+      <Project>8E736F8D-14B4-4388-9243-BC3F5ADD755C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/gamma.vcxproj">
+      <Project>F8267B4F-7064-4D2D-8AFF-F3BD7778C66F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/examples/gears.vcxproj">
+      <Project>BB68C852-8D36-4C45-ABDC-2710A96B68FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/src/glfw.vcxproj">
+      <Project>76CF937C-B0A5-4EF7-894E-D7DD142D7F91</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/glfwinfo.vcxproj">
+      <Project>72651885-2EA7-43F0-895A-124C0B09B448</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/examples/heightmap.vcxproj">
+      <Project>7362E5FD-95C5-490A-A053-BC5DCF33216F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/iconify.vcxproj">
+      <Project>A578AF11-A304-40B5-8B58-66D559BC5669</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/joysticks.vcxproj">
+      <Project>A8651DFF-57AA-4123-A104-8568F4674C6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/monitors.vcxproj">
+      <Project>6EF0D193-2F3A-41C9-8049-899299DAF1EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/msaa.vcxproj">
+      <Project>C086EB25-452F-4523-BE51-1D0B7D74C7B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/examples/particles.vcxproj">
+      <Project>563E2D34-424B-4DDD-B973-10A1D28C8810</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/reopen.vcxproj">
+      <Project>EA897D5F-5FA6-4236-9F88-90F6FDDA4282</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/sharing.vcxproj">
+      <Project>F3B8D99E-24A5-4072-B31D-A7824CDEA015</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/examples/simple.vcxproj">
+      <Project>0E53E196-7FE8-49BA-8B18-60725A7A201D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/examples/splitview.vcxproj">
+      <Project>1A089253-BA4E-41E5-A911-78434EDCB1F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/tearing.vcxproj">
+      <Project>01F981C2-B570-4E12-8175-C5762FC7A3E9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/threads.vcxproj">
+      <Project>4259F386-1EC2-4DB7-955B-D72301BAF2C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/title.vcxproj">
+      <Project>4FE03672-77BB-4D6D-8CC3-F3F656CEE426</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/examples/wave.vcxproj">
+      <Project>D7BA1C8C-9854-41F2-990C-EDEFC3C7D088</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Digital Arts &amp; Entertainment/Platform Development/Repository_PlatformDev/glfw/tests/windows.vcxproj">
+      <Project>1794B0E1-E571-4832-B0FC-20C10F15BB77</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
